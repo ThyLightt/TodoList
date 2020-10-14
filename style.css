@@ -1,0 +1,108 @@
+body {
+  margin: 0 auto;
+  background-color: aliceblue;
+  background-image: url("https://i.imgur.com/R9J6ipQ.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; }
+
+.navbar {
+  display: flex;
+  justify-content: space-between; }
+
+.navbar .navcont {
+  padding: 20px; }
+
+.navbar .navcont a {
+  font-family: Franklin Gothic;
+  color: #033E54;
+  text-decoration: none;
+  padding: 5px 15px 5px 15px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  margin: 40px; }
+
+.navbar .navcont a:nth-child(2n) {
+  background-color: aliceblue; }
+
+.navbar img {
+  margin-left: 16px;
+  margin-top: 2px; }
+
+.headReg {
+  display: flex;
+  justify-content: space-between; }
+
+.headReg1 a {
+  background-color: aliceblue;
+  font-family: Franklin Gothic;
+  color: #033E54;
+  text-decoration: none;
+  padding: 5px 15px 5px 15px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  margin: 40px; }
+
+.headReg1 a:first-child {
+  margin-right: 7vw; }
+
+.headReg img {
+  margin-left: 16px; }
+
+.headReg1 {
+  padding: 20px; }
+
+h1 {
+  cursor: help;
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #033E54;
+  text-align: center; }
+
+form {
+  background-color: #dae0e7;
+  font-family: Tahoma;
+  margin: 0 auto;
+  height: 500px;
+  width: 450px;
+  padding: 20px;
+  box-shadow: 2px 2px 5px #4d6bb5; }
+
+.group {
+  margin: 10px;
+  padding: 5px; }
+
+form label {
+  padding-left: 10px; }
+
+form input {
+  margin-top: 10px;
+  height: 40px;
+  width: 400px;
+  border-radius: 20px/20px;
+  border: none;
+  padding-left: 15px;
+  font-size: 18px;
+  box-shadow: 2px 2px 5px #4d6bb5; }
+
+input:focus {
+  border: 2px solid #033E54; }
+
+.group button {
+  cursor: pointer;
+  padding: 10px 30px;
+  height: 50px;
+  background-color: bisque;
+  border: none;
+  box-shadow: 2px 2px 5px #4d6bb5;
+  font-size: 15px; }
+
+.group button:hover {
+  opacity: 0.8;
+  font-weight: bold;
+  transform: scale(1.025); }
+
+/*# sourceMappingURL=style.css.map */

@@ -23,7 +23,11 @@ submitButton.onclick = function () {
         localStorage.setItem('users', JSON.stringify(users))
     }
     let passwordConfAdd = document.getElementById("passwordConf");
-    validatePasswordConf(passwordConfAdd);
+    if (validatePasswordConf(passwordConfAdd, passwordAdd)){
+        user.passwordConf=passwordConfAdd.value;
+        users.push(user);
+        localStorage.setItem('users', JSON.stringify(users))
+    }
 
 }
 
@@ -60,7 +64,7 @@ function validatePassword (password) {
         return false;
     }
 }
-function validatePasswordConf(passwordConf) {
+function validatePasswordConf(passwordConf, password) {
     if ( passwordConf.value === password.value)
     {
         passwordConf.styleBorder_bottom = "1px solid #33CC00"
